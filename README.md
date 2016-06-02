@@ -108,6 +108,8 @@ web UI实战
     - 把流程拆开，login一般用在before阶段，商品、下单和查看变成多个测试用例
 
 
+- [接口测试部分 - 简单介绍](接口测试.md)
+
 附录：
 - 书籍文章推荐
     - [JavaScript秘密花园](http://bonsaiden.github.io/JavaScript-Garden/zh/)
