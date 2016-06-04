@@ -1,10 +1,7 @@
 package com.test.java.webui.project.Page;
 
 import com.test.java.webui.project.WebDriverPlus;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
@@ -21,6 +18,7 @@ public abstract class AbstractBasePage {
     private WebDriver driver;
     private WebDriverWait wait;
     private JavascriptExecutor jse;
+//    private TakesScreenshot she
 
     public AbstractBasePage(WebDriverPlus webDriverPlus) {
         this.webDriverPlus = webDriverPlus;

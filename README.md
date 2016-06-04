@@ -110,6 +110,8 @@ web UI实战
 
 - [接口测试部分 - 简单介绍](接口测试.md)
 
+- TODO 研究录制视频 appium介绍
+
 附录：
 - 书籍文章推荐
     - [JavaScript秘密花园](http://bonsaiden.github.io/JavaScript-Garden/zh/)
