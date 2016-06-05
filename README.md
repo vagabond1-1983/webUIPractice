@@ -112,8 +112,8 @@ web UI实战
 
 - TODO 研究录制视频 appium介绍
 
-附录：
-- 书籍文章推荐
+附:
     - [JavaScript秘密花园](http://bonsaiden.github.io/JavaScript-Garden/zh/)
     - [PageFactory官方说明](https://github.com/SeleniumHQ/selenium/wiki/PageFactory)
     - [深入TestNG](http://www.shenyanchao.cn/blog/2013/06/05/deep-in-testng/)
+    - WIKI page in WIKI tab of project
