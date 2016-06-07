@@ -8,36 +8,37 @@ web UI实战
           表单包括：用户名、密码、确认密码、性别单选、所在省市、提交
           表单要规范，用表格形式呈现
 ### [JavaScript](https://github.com/vagabond1-1983/blog/issues/40)
-        - 表单验证部分代码 - formValidate.html
-        - 随堂练习：注册页面在提交时，检查用户名的合法性（不为空、首字母不是空格、_），如果不合法，提示输入不正确，重新输入，如果合法，提示用户名输入正确
+- 表单验证部分代码 - formValidate.html
+- 随堂练习：注册页面在提交时，检查用户名的合法性（不为空、首字母不是空格、_），如果不合法，提示输入不正确，重新输入，如果合法，提示用户名输入正确
 ### [DOM](https://github.com/vagabond1-1983/blog/issues/41)
         - 随堂练习：用DOM查找元素的方式，重写检查用户名的方法
 ### [JQuery](https://github.com/vagabond1-1983/blog/issues/42)
-        - 随堂练习：用JQuery查找元素的方式，重写检查用户名的方法
-    - 作业：注册表单完善，包含JavaScript交互:
+- 随堂练习：用JQuery查找元素的方式，重写检查用户名的方法
+- 作业：注册表单完善，包含JavaScript交互:
         提交后验证下列字段：
         用户名不能为空、用户名不能以数字0开头
         密码不少于8位
         密码和确认密码相同
         注册提交后，用户输入的信息展示：用户名，性别，所在省市
         要求使用jquery方式验证
+- 补充知识：
     AJAX异步请求：1.观察获取异步请求 - baidu search 2.JQUERY AJAX异步请求方式
 ## Selenium热身：不同浏览器自动化访问baidu
-    - [什么是selenium](https://www.ibm.com/developerworks/cn/web/wa-selenium2/)
-    - 软件安装：firefox(安装到默认位置后，记得关闭更新), selenium IDE [百度云盘的软件共享](http://yun.baidu.com/pcloud/album/info?uk=1913063318&album_id=2794016679837573555)
-    - [Firefox](src/main/java/com/test/java/webui/accessBaiduDemo/FirefoxAccessBaidu.java) -- 火狐访问百度
-    - [Chrome](src/main/java/com/test/java/webui/accessBaiduDemo/ChromeAccessBaidu.java) -- Chrome访问百度
-    - [IE](src/main/java/com/test/java/webui/accessBaiduDemo/IEAccessBaidu.java) -- IE访问百度
-    - [小小封装下变成Common](src/main/java/com/test/java/webui/accessBaiduDemo/CommonAccessBaidu.java) -- 简单封装思路
+- [什么是selenium](https://www.ibm.com/developerworks/cn/web/wa-selenium2/)
+- 软件安装：firefox(安装到默认位置后，记得关闭更新), selenium IDE [百度云盘的软件共享](http://yun.baidu.com/pcloud/album/info?uk=1913063318&album_id=2794016679837573555)
+- [Firefox](src/main/java/com/test/java/webui/accessBaiduDemo/FirefoxAccessBaidu.java) -- 火狐访问百度
+- [Chrome](src/main/java/com/test/java/webui/accessBaiduDemo/ChromeAccessBaidu.java) -- Chrome访问百度
+- [IE](src/main/java/com/test/java/webui/accessBaiduDemo/IEAccessBaidu.java) -- IE访问百度
+- [小小封装下变成Common](src/main/java/com/test/java/webui/accessBaiduDemo/CommonAccessBaidu.java) -- 简单封装思路
 ## SeleniumIDE
-    - 定位元素方式 ?  [baidu搜索为例](src/main/java/com/test/java/webui/seleniumIDE定位元素/seleniumIDE定位元素.md)
-        - id
-        - name
-        - css
-        - xpath(重点)  http://www.w3school.com.cn/xpath/xpath_syntax.asp
-    - 使用 软件介绍
-    - 录制回放  演示用IDE录制回放登录百度
-    - 随堂：IDE录制回放登录百度
+- 定位元素方式 ?  [baidu搜索为例](src/main/java/com/test/java/webui/seleniumIDE定位元素/seleniumIDE定位元素.md)
+-- id
+-- name
+-- css
+-- xpath(重点)  http://www.w3school.com.cn/xpath/xpath_syntax.asp
+- 使用 软件介绍
+- 录制回放  演示用IDE录制回放登录百度
+- 随堂：IDE录制回放登录百度
 ## TestNG基本介绍
     - [单元测试及框架 JUnit](src/main/java/com/test/java/unit/junit/AddFunctionServiceTest.java)
     - [什么是TestNG？跟JUnit区别在哪](https://github.com/vagabond1-1983/webUIPractice/issues/6)
