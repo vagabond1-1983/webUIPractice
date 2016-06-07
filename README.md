@@ -1,6 +1,7 @@
 # webUIPractice
-web UI实战
 [TOC]
+web UI实战
+
 ## 基础知识概览
 ### [HTML](https://github.com/vagabond1-1983/blog/issues/39)
     - 作业： 设计一个注册表单
@@ -48,6 +49,7 @@ AJAX异步请求:
     - [为什么用单元测试框架驱动selenium](https://github.com/vagabond1-1983/webUIPractice/issues/9)
         - 能够灵活的配置测试脚本（用例）运行Selenium脚本
     - [TestNG基本写法](src/main/java/com/test/java/testng/BasicDemo.java) -- before, test, after, assert
+
 ## WebDriver基本API
     - [原理浅析?](https://github.com/vagabond1-1983/webUIPractice/issues/7) selenium1和2的原理
     - 更好的利用TestNG构建Selenium自动化用例  BaseTest & AbstractAccessBaidu
@@ -61,6 +63,7 @@ AJAX异步请求:
         - [getAttribute](src/main/java/com/test/java/webui/api/element/GetAttrubuteTest.java) --获取元素属性
 
     test-output 测试报告  reportNG 高级特性
+
 ## 高级技巧
     - Actions(键盘事件、鼠标双击)
         - *****[鼠标双击](src/main/java/com/test/java/webui/api/highLevelSkills/actions/ActionsDemo)
@@ -91,6 +94,7 @@ AJAX异步请求:
             - ***[通过id或者name进入框架](src/main/java/com/test/java/webui/api/highLevelSkills/testFlowControl/FrameDemo.java) -- frameByIdOrNameTest()
             - ***[通过页面内容进入框架](src/main/java/com/test/java/webui/api/highLevelSkills/testFlowControl/FrameDemo.java) -- frameByContentTest()
         - 作业：完成登录苏宁易购并添加商品到购物车的操作
+
 ## TestNG 高级特性
 ### TestNG数据驱动
     - DataProvider
