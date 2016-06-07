@@ -22,7 +22,10 @@ web UI实战
         注册提交后，用户输入的信息展示：用户名，性别，所在省市
         要求使用jquery方式验证
 - 补充知识：
-AJAX异步请求：1.观察获取异步请求 - baidu search 2.JQUERY AJAX异步请求方式
+AJAX异步请求：
+1.观察获取异步请求 - baidu search
+2.JQUERY AJAX异步请求方式
+
 ## Selenium热身：不同浏览器自动化访问baidu
 - [什么是selenium](https://www.ibm.com/developerworks/cn/web/wa-selenium2/)
 - 软件安装：firefox(安装到默认位置后，记得关闭更新), selenium IDE [百度云盘的软件共享](http://yun.baidu.com/pcloud/album/info?uk=1913063318&album_id=2794016679837573555)
