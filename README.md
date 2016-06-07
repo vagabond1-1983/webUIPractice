@@ -1,6 +1,6 @@
 # webUIPractice
 web UI实战
-
+[TOC]
 ## 基础知识概览
 ### [HTML](https://github.com/vagabond1-1983/blog/issues/39)
     - 作业： 设计一个注册表单
@@ -21,8 +21,8 @@ web UI实战
         密码和确认密码相同
         注册提交后，用户输入的信息展示：用户名，性别，所在省市
         要求使用jquery方式验证
-- 补充知识：
-AJAX异步请求：
+- 补充知识:
+AJAX异步请求:
 1.观察获取异步请求 - baidu search
 2.JQUERY AJAX异步请求方式
 
@@ -48,7 +48,6 @@ AJAX异步请求：
     - [为什么用单元测试框架驱动selenium](https://github.com/vagabond1-1983/webUIPractice/issues/9)
         - 能够灵活的配置测试脚本（用例）运行Selenium脚本
     - [TestNG基本写法](src/main/java/com/test/java/testng/BasicDemo.java) -- before, test, after, assert
-    有哪些基本注解?
 ## WebDriver基本API
     - [原理浅析?](https://github.com/vagabond1-1983/webUIPractice/issues/7) selenium1和2的原理
     - 更好的利用TestNG构建Selenium自动化用例  BaseTest & AbstractAccessBaidu
@@ -74,23 +73,23 @@ AJAX异步请求：
     - 随堂：完成注册页面的自动化，并检验注册成功页面是否打开并截图
     - 测试流控制
         - 等待 *****
-            - ****隐式等待(src/main/java/com/test/java/webui/api/highLevelSkills/testFlowControl/ImplicitlyWaitDemo.java)
-            - *****显式等待(src/main/java/com/test/java/webui/api/highLevelSkills/testFlowControl/ConditionWaitDemo.java)
+            - ****[隐式等待](src/main/java/com/test/java/webui/api/highLevelSkills/testFlowControl/ImplicitlyWaitDemo.java)
+            - *****[显式等待](src/main/java/com/test/java/webui/api/highLevelSkills/testFlowControl/ConditionWaitDemo.java)
             - 简单来说，隐式等待是符合时间要求 - 超时时间，而显示等待是符合自定义条件，更灵活
             - 改进SearchTestOnBaidu的等待方式
         - 检查元素 *****
-            - *****是否存在(src/main/java/com/test/java/webui/api/highLevelSkills/testFlowControl/ElementPresentDemo.java)
-            - ***状态(src/main/java/com/test/java/webui/api/highLevelSkills/testFlowControl/ElementStatusCheckDemo.java)
+            - *****[是否存在](src/main/java/com/test/java/webui/api/highLevelSkills/testFlowControl/ElementPresentDemo.java)
+            - ***[状态](src/main/java/com/test/java/webui/api/highLevelSkills/testFlowControl/ElementStatusCheckDemo.java)
         - 弹出窗口
-            - ***名称识别(src/main/java/com/test/java/webui/api/highLevelSkills/testFlowControl/WindowPopupDemo.java) -- windowsNameTest()
-            - ***标题识别(src/main/java/com/test/java/webui/api/highLevelSkills/testFlowControl/WindowPopupDemo.java) -- windowsTitleTest()
-            - ****内容识别(src/main/java/com/test/java/webui/api/highLevelSkills/testFlowControl/WindowPopupDemo.java) -- windowsContentTest()
+            - ***[名称识别](src/main/java/com/test/java/webui/api/highLevelSkills/testFlowControl/WindowPopupDemo.java) -- windowsNameTest()
+            - ***[标题识别](src/main/java/com/test/java/webui/api/highLevelSkills/testFlowControl/WindowPopupDemo.java) -- windowsTitleTest()
+            - ****[内容识别](src/main/java/com/test/java/webui/api/highLevelSkills/testFlowControl/WindowPopupDemo.java) -- windowsContentTest()
         - 警告框
-            - ****警告框(src/main/java/com/test/java/webui/api/highLevelSkills/testFlowControl/AlertDemo.java) -- alertTest()
-            - ****确认框(src/main/java/com/test/java/webui/api/highLevelSkills/testFlowControl/AlertDemo.java) -- confirmTest()
+            - ****[警告框](src/main/java/com/test/java/webui/api/highLevelSkills/testFlowControl/AlertDemo.java) -- alertTest()
+            - ****[确认框](src/main/java/com/test/java/webui/api/highLevelSkills/testFlowControl/AlertDemo.java) -- confirmTest()
         - 框架
-            - ***通过id或者name进入框架(src/main/java/com/test/java/webui/api/highLevelSkills/testFlowControl/FrameDemo.java) -- frameByIdOrNameTest()
-            - ***通过页面内容进入框架(src/main/java/com/test/java/webui/api/highLevelSkills/testFlowControl/FrameDemo.java) -- frameByContentTest()
+            - ***[通过id或者name进入框架](src/main/java/com/test/java/webui/api/highLevelSkills/testFlowControl/FrameDemo.java) -- frameByIdOrNameTest()
+            - ***[通过页面内容进入框架](src/main/java/com/test/java/webui/api/highLevelSkills/testFlowControl/FrameDemo.java) -- frameByContentTest()
         - 作业：完成登录苏宁易购并添加商品到购物车的操作
 ## TestNG 高级特性
 ### TestNG数据驱动
@@ -103,6 +102,7 @@ AJAX异步请求：
     - 应用一：编写自己的listener
     - 应用二：美化版报告 ReportNG pom文件的配置  会配置，能说出来即可
     - [Arrow自学](https://github.com/NetEase/arrow)
+
 ## WebUI实战
 ### Page Factory 框架
     - [简单介绍Page Factory编程方式](src/main/java/com/test/java/webui/PageFactory/DriveLoginWithSimplePOM.java)
