@@ -11,8 +11,10 @@ web UI实战
 ### [JavaScript](https://github.com/vagabond1-1983/blog/issues/40)
 - 表单验证部分代码 - formValidate.html
 - 随堂练习：注册页面在提交时，检查用户名的合法性（不为空、首字母不是空格、_），如果不合法，提示输入不正确，重新输入，如果合法，提示用户名输入正确
+
 ### [DOM](https://github.com/vagabond1-1983/blog/issues/41)
         - 随堂练习：用DOM查找元素的方式，重写检查用户名的方法
+
 ### [JQuery](https://github.com/vagabond1-1983/blog/issues/42)
 - 随堂练习：用JQuery查找元素的方式，重写检查用户名的方法
 - 作业：注册表单完善，包含JavaScript交互:
