@@ -52,7 +52,8 @@ AJAX异步请求:
         - 能够灵活的配置测试脚本（用例）运行Selenium脚本
     - [TestNG基本写法](src/main/java/com/test/java/testng/BasicDemo.java) -- before, test, after, assert
 
-## WebDriver基本API
+## WebDriver
+### 基本API
     - [原理浅析?](https://github.com/vagabond1-1983/webUIPractice/issues/7) selenium1和2的原理
     - 更好的利用TestNG构建Selenium自动化用例  BaseTest & AbstractAccessBaidu
         - BestTest 作用：运行Test之前启动driver，运行Test之后退出driver
@@ -66,7 +67,7 @@ AJAX异步请求:
 
     test-output 测试报告  reportNG 高级特性
 
-## 高级技巧
+### 高级技巧
     - Actions(键盘事件、鼠标双击)
         - *****[鼠标双击](src/main/java/com/test/java/webui/api/highLevelSkills/actions/ActionsDemo)
     - 执行JS
@@ -122,9 +123,9 @@ AJAX异步请求:
 
 ## [接口测试部分 - 简单介绍](接口测试.md)
 
-- TODO 研究录制视频 appium介绍
+## TODO appium介绍 -- 研究并录制视频
 
-附:
+## 附:
 1. [JavaScript秘密花园](http://bonsaiden.github.io/JavaScript-Garden/zh/)
 2. [PageFactory官方说明](https://github.com/SeleniumHQ/selenium/wiki/PageFactory)
 3. [深入TestNG](http://www.shenyanchao.cn/blog/2013/06/05/deep-in-testng/)
