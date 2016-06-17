@@ -21,7 +21,7 @@ public class DriveLoginWithSimplePOM {
     @DataProvider(name = "csv")
     public Object[][] genLoginAccount() {
         return new Object[][]{
-                {"17090881365", "1qaz@WSX"}
+                {"xxx", "xxx"}
         };
     }
 
